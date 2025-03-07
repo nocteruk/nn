@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="铜艺门匠 - 20年专注高端铜门定制，提供纯铜门、铸铝门和铝艺护栏等产品，为别墅、豪宅打造独特艺术之门">
+    <meta name="keywords" content="铜门,铸铝门,别墅大门,豪宅门,铝艺护栏,铜门定制">
+    <title>铜艺门匠 - 高端定制铜门专家</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://cdn.bootcdn.net">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preload" href="images/logo.png" as="image">
+    <!-- 预加载关键图片 -->
+    <link rel="preload" href="images/european-style.jpg" as="image">
+    
+    <!-- 结构化数据 - 本地企业信息 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HomeAndConstructionBusiness",
+        "name": "铜艺门匠",
+        "image": "https://www.example.com/images/logo.png",
+        "description": "专注高端铜门定制，提供纯铜门、铸铝门和铝艺护栏等产品，为别墅、豪宅打造独特艺术之门",
+        "url": "https://www.example.com",
+        "telephone": "+8613852955775",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "扬中大道268号",
+            "addressLocality": "扬中市",
+            "addressRegion": "镇江市",
+            "addressCountry": "中国",
+            "postalCode": "212200"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "32.237025",
+            "longitude": "119.816572"
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "opens": "08:30",
+                "closes": "17:30"
+            }
+        ],
+        "priceRange": "¥¥¥"
+    }
+    </script>
+    
+    <!-- 结构化数据 - 产品信息 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@type": "Product",
+                    "name": "欧式铜门系列",
+                    "description": "典雅奢华，彰显尊贵品位，适合欧式及法式风格建筑",
+                    "image": "https://www.example.com/images/european-style.jpg",
+                    "brand": {
+                        "@type": "Brand",
+                        "name": "铜艺门匠"
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@type": "Product",
+                    "name": "新中式系列",
+                    "description": "传统与现代的完美融合，展现东方美学的精髓",
+                    "image": "https://www.example.com/images/chinese-style.jpg",
+                    "brand": {
+                        "@type": "Brand",
+                        "name": "铜艺门匠"
+                    }
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="fixed-header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="铜艺门匠" width="50" height="50">
+                <h1>铜艺门匠</h1>
+            </div>
+            <nav class="nav-menu">
+                <a href="#home">首页</a>
+                <div class="dropdown">
+                    <a href="#products" class="dropdown-toggle">产品系列</a>
+                    <div class="dropdown-menu">
+                        <div class="mega-menu">
+                            <div class="menu-section">
+                                <h3>按材质分类</h3>
+                                <a href="#copper">纯铜门系列</a>
+                                <a href="#aluminum">铸铝门系列</a>
+                                <a href="#railing">铝艺护栏</a>
+                                <a href="#steel">钢制门系列</a>
+                                <a href="#composite">复合材料门</a>
+                            </div>
+                            <div class="menu-section">
+                                <h3>按场景分类</h3>
+                                <a href="#villa">别墅大门</a>
+                                <a href="#apartment">公寓入户门</a>
+                                <a href="#commercial">商业门窗</a>
+                                <a href="#garden">庭院围栏</a>
+                                <a href="#interior">室内门</a>
+                            </div>
+                            <div class="menu-section">
+                                <h3>按风格分类</h3>
+                                <a href="#modern">现代简约</a>
+                                <a href="#european">欧式古典</a>
+                                <a href="#chinese">新中式</a>
+                                <a href="#industrial">工业风</a>
+                                <a href="#minimalist">极简主义</a>
+                            </div>
+                            <div class="menu-section">
+                                <h3>铸铝系列</h3>
+                                <a href="#all-aluminum">全铝结构门</a>
+                                <a href="#thermal-break">断桥保温门</a>
+                                <a href="#aluminum-gate">铝艺围墙门</a>
+                                <a href="#aluminum-railing">铝艺护栏</a>
+                                <a href="#special-aluminum">特种铝门</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#cases">经典案例</a>
+                <a href="#crafts">工艺说明</a>
+                <a href="#contact">联系咨询</a>
+            </nav>
+            <div class="header-actions">
+                <a href="tel:13852955775" class="phone-btn">
+                    <i class="fas fa-phone-alt"></i>
+                    138-5295-5775
+                </a>
+                <button class="search-toggle">
+                    <i class="fas fa-search"></i>
+                </button>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 横幅区域 -->
+    <section id="home" class="banner">
+        <div class="banner-content animate-fadeInUp">
+            <h2>匠心铸就品质<br>艺术成就经典</h2>
+            <p>20年专注铜门定制，服务千家别墅豪宅<br>独特工艺，精湛技术，为您打造专属的艺术之门</p>
+            <div class="banner-buttons">
+                <a href="#contact" class="btn primary-btn">
+                    <i class="fas fa-phone-alt"></i>
+                    预约咨询
+                </a>
+                <a href="#products" class="btn secondary-btn">
+                    <i class="fas fa-door-open"></i>
+                    了解产品
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 产品系列 -->
+    <section id="products" class="products-section">
+        <div class="section-title">
+            <h2>匠心产品系列</h2>
+            <p>多元风格，满足不同审美需求，每一扇门都是独特的艺术品</p>
+        </div>
+        
+        <!-- 分类导航 -->
+        <div class="categories-nav">
+            <button class="category-btn active" data-filter="all">全部产品</button>
+            <button class="category-btn" data-filter="copper">铜门系列</button>
+            <button class="category-btn" data-filter="aluminum">铸铝门系列</button>
+            <button class="category-btn" data-filter="railing">铝艺护栏</button>
+            <button class="category-btn" data-filter="villa">别墅大门</button>
+        </div>
+        
+        <div class="product-grid">
+            <!-- 铜门系列 -->
+            <div class="product-card animate-fadeInUp" data-id="p001" data-material="copper" data-style="european" data-features="防盗,隔音,耐腐蚀" data-price="premium" data-sales="128" data-date="2023-12-15">
+                <div class="product-image">
+                    <img src="images/european-style.jpg" alt="欧式铜门" loading="lazy" width="400" height="300">
+                </div>
+                <div class="product-info">
+                    <h3>欧式铜门系列</h3>
+                    <p>典雅奢华，彰显尊贵品位，适合欧式及法式风格建筑</p>
+                    <a href="#contact" class="btn primary-btn">了解详情</a>
+                </div>
+            </div>
+            <div class="product-card animate-fadeInUp" data-id="p002" data-material="copper" data-style="chinese" data-features="防盗,隔音,防火" data-price="premium" data-sales="96" data-date="2024-01-20">
+                <div class="product-image">
+                    <img src="images/chinese-style.jpg" alt="中式铜门" loading="lazy" width="400" height="300">
+                </div>
+                <div class="product-info">
+                    <h3>新中式系列</h3>
+                    <p>传统与现代的完美融合，展现东方美学的精髓</p>
+                    <a href="#contact" class="btn primary-btn">了解详情</a>
+                </div>
+            </div>
+            <div class="product-card animate-fadeInUp" data-id="p003" data-material="copper" data-style="modern" data-features="防盗,隔热,智能" data-price="premium" data-sales="85" data-date="2024-02-10">
+                <div class="product-image">
+                    <img src="images/modern-style.jpg" alt="现代铜门" loading="lazy" width="400" height="300">
+                </div>
+                <div class="product-info">
+                    <h3>现代简约系列</h3>
+                    <p>简约不简单，突出材质本色，打造时尚现代空间</p>
+                    <a href="#contact" class="btn primary-btn">了解详情</a>
+                </div>
+            </div>
+            
+            <!-- 铸铝门系列 -->
+            <div class="product-card animate-fadeInUp" data-id="p004" data-material="aluminum" data-style="modern" data-features="轻盈,隔热,经济" data-price="economic" data-sales="156" data-date="2024-03-05">
+                <div class="product-image">
+                    <img src="images/aluminum-style.jpg" alt="铸铝门" loading="lazy" width="400" height="300">
+                </div>
+                <div class="product-info">
+                    <h3>标准铸铝门系列</h3>
+                    <p>轻盈与坚固的完美结合，适合现代简约风格</p>
+                    <a href="#contact" class="btn primary-btn">了解详情</a>
+                </div>
+            </div>
+            <div class="product-card animate-fadeInUp" data-id="p005" data-material="aluminum" data-style="modern" data-features="耐用,环保,轻盈" data-price="economic" data-sales="132" data-date="2024-02-15">
+                <div class="product-image">
+                    <img src="images/all-aluminum.jpg" alt="全铝结构铸铝门" loading="lazy" width="400" height="300">
+                </div>
+                <div class="product-info">
+                    <h3>全铝结构铸铝门</h3>
+                    <p>全铝一体化设计，轻盈美观，无木结构的超长使用寿命</p>
+                    <a href="#contact" class="btn primary-btn">了解详情</a>
+                </div>
+            </div>
+            <div class="product-card animate-fadeInUp" data-id="p006" data-material="aluminum" data-style="modern" data-features="保温,隔音,节能" data-price="premium" data-sales="105" data-date="2024-01-10">
+                <div class="product-image">
+                    <img src="images/thermal-break.jpg" alt="断桥系统铸铝门" loading="lazy" width="400" height="300">
+                </div>
+                <div class="product-info">
+                    <h3>断桥系统铸铝门</h3>
+                    <p>隔热保温，降低能源消耗，适合北方地区使用</p>
+                    <a href="#contact" class="btn primary-btn">了解详情</a>
+                </div>
+            </div>
+            
+            <!-- 铝艺围墙系列 -->
+            <div class="product-card animate-fadeInUp" data-id="p007" data-material="aluminum" data-category="railing" data-features="耐用,美观,防锈" data-price="economic" data-sales="125" data-date="2024-02-28">
+                <div class="product-image">
+                    <img src="images/aluminum-gate.jpg" alt="铝艺围墙大门" loading="lazy" width="400" height="300">
+                </div>
+                <div class="product-info">
+                    <h3>铝艺围墙大门</h3>
+                    <p>轻巧耐用，防腐蚀性强，多样化设计风格选择</p>
+                    <a href="#contact" class="btn primary-btn">了解详情</a>
+                </div>
+            </div>
+            <div class="product-card animate-fadeInUp" data-id="p008" data-material="aluminum" data-category="railing" data-features="装饰,安全,经久" data-price="economic" data-sales="142" data-date="2024-03-10">
+                <div class="product-image">
+                    <img src="images/aluminum-railing.jpg" alt="铝艺围墙护栏" loading="lazy" width="400" height="300">
+                </div>
+                <div class="product-info">
+                    <h3>铝艺围墙护栏</h3>
+                    <p>美观大方，安全可靠，长期使用不老化</p>
+                    <a href="#contact" class="btn primary-btn">了解详情</a>
+                </div>
+            </div>
+            
+            <!-- 别墅大门系列 -->
+            <div class="product-card animate-fadeInUp" data-id="p009" data-material="copper" data-category="villa" data-features="防盗,智能,豪华" data-price="premium" data-sales="78" data-date="2023-12-05">
+                <div class="product-image">
+                    <img src="images/villa-copper.jpg" alt="别墅铜门" loading="lazy" width="400" height="300">
+                </div>
+                <div class="product-info">
+                    <h3>豪华别墅铜门</h3>
+                    <p>定制设计，豪华气派，智能安防系统集成</p>
+                    <a href="#contact" class="btn primary-btn">了解详情</a>
+                </div>
+            </div>
+            <div class="product-card animate-fadeInUp" data-id="p010" data-material="copper-aluminum" data-category="villa" data-features="防盗,耐用,美观" data-price="premium" data-sales="93" data-date="2024-01-25">
+                <div class="product-image">
+                    <img src="images/copper-aluminum.jpg" alt="铜铝复合门" loading="lazy" width="400" height="300">
+                </div>
+                <div class="product-info">
+                    <h3>铜铝复合别墅门</h3>
+                    <p>铜铝材质完美结合，兼具美观与实用性</p>
+                    <a href="#contact" class="btn primary-btn">了解详情</a>
+                </div>
+            </div>
+            
+            <!-- 特种门系列 -->
+            <div class="product-card animate-fadeInUp" data-id="p011" data-material="security" data-category="special" data-features="防盗,防火,隔音" data-price="premium" data-sales="65" data-date="2024-02-18">
+                <div class="product-image">
+                    <img src="images/security-door.jpg" alt="安全防盗门" loading="lazy" width="400" height="300">
+                </div>
+                <div class="product-info">
+                    <h3>安全防盗门</h3>
+                    <p>多重锁具设计，高强度材质，提供极致安全保障</p>
+                    <a href="#contact" class="btn primary-btn">了解详情</a>
+                </div>
+            </div>
+            <div class="product-card animate-fadeInUp" data-id="p012" data-material="steel" data-category="special" data-features="防火,隔热,耐用" data-price="premium" data-sales="58" data-date="2024-01-15">
+                <div class="product-image">
+                    <img src="images/fire-door.jpg" alt="防火门" loading="lazy" width="400" height="300">
+                </div>
+                <div class="product-info">
+                    <h3>防火安全门</h3>
+                    <p>符合国家防火标准，提供高效隔热防火保护</p>
+                    <a href="#contact" class="btn primary-btn">了解详情</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 工艺说明 -->
+    <section id="crafts" class="crafts-section">
+        <div class="section-title">
+            <h2>精湛工艺</h2>
+            <p>传承匠心精神，打造艺术精品</p>
+        </div>
+        <div class="crafts-grid">
+            <div class="craft-item animate-fadeInUp">
+                <div class="craft-icon">
+                    <i class="fas fa-hammer"></i>
+                </div>
+                <h3>纯手工锻造</h3>
+                <p>采用传统锻造工艺，每一件作品都由经验丰富的工匠精心打造，确保品质</p>
+            </div>
+            <div class="craft-item animate-fadeInUp">
+                <div class="craft-icon">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <h3>古法着色</h3>
+                <p>运用独特的古法着色技术，赋予铜门自然优雅的色泽，历久弥新</p>
+            </div>
+            <div class="craft-item animate-fadeInUp">
+                <div class="craft-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3>精工细作</h3>
+                <p>严格把控每道工序，从开模、浇铸到打磨、安装，精益求精</p>
+            </div>
+            <div class="craft-item animate-fadeInUp">
+                <div class="craft-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>品质保障</h3>
+                <p>采用优质铜材，科学配比，确保产品具有优异的防腐、防锈性能</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 经典案例 -->
+    <section id="cases" class="cases-section">
+        <div class="section-title">
+            <h2>经典案例</h2>
+            <p>每一个案例都是独特的艺术呈现</p>
+        </div>
+        <div class="cases-grid">
+            <div class="case-card animate-fadeInUp">
+                <div class="case-image">
+                    <img src="images/case-1.jpg" alt="别墅铜门案例" loading="lazy" width="400" height="300">
+                    <div class="case-overlay">
+                        <h3>豪华别墅铜门定制</h3>
+                        <p>法式风格 | 纯铜打造</p>
+                    </div>
+                </div>
+            </div>
+            <div class="case-card animate-fadeInUp">
+                <div class="case-image">
+                    <img src="images/case-2.jpg" alt="会所铜门案例" loading="lazy" width="400" height="300">
+                    <div class="case-overlay">
+                        <h3>高端会所铜门项目</h3>
+                        <p>新中式风格 | 整体定制</p>
+                    </div>
+                </div>
+            </div>
+            <div class="case-card animate-fadeInUp">
+                <div class="case-image">
+                    <img src="images/case-3.jpg" alt="庭院铜门案例" loading="lazy" width="400" height="300">
+                    <div class="case-overlay">
+                        <h3>私人庭院铜门设计</h3>
+                        <p>现代简约 | 个性定制</p>
+                    </div>
+                </div>
+            </div>
+            <div class="case-card animate-fadeInUp">
+                <div class="case-image">
+                    <img src="images/case-4.jpg" alt="铸铝门案例" loading="lazy" width="400" height="300">
+                    <div class="case-overlay">
+                        <h3>轻奢铸铝门案例</h3>
+                        <p>现代风格 | 铸铝定制</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系咨询 -->
+    <section id="contact" class="contact-section">
+        <div class="section-title">
+            <h2>预约咨询</h2>
+            <p>专业顾问为您提供一对一服务，打造专属方案</p>
+        </div>
+        <div class="contact-container">
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">您的称呼</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">联系电话</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">电子邮箱（选填）</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">咨询内容</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn">
+                    <span class="btn-text">提交咨询</span>
+                    <div class="spinner-border d-none" role="status">
+                        <span class="visually-hidden">提交中...</span>
+                    </div>
+                </button>
+            </form>
+            <div id="formSuccess" class="form-success" style="display: none;">
+                <i class="fas fa-check-circle"></i>
+                <h3>提交成功</h3>
+                <p>我们会尽快与您联系，感谢您的信任！</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 定制流程 -->
+    <section id="process" class="process-section">
+        <div class="section-title">
+            <h2>定制流程</h2>
+            <p>专业团队为您提供一站式铜门定制服务</p>
+        </div>
+        <div class="process-grid">
+            <div class="process-item animate-fadeInUp">
+                <div class="process-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <h3>需求沟通</h3>
+                <p>专业顾问深入了解您的具体需求和偏好</p>
+            </div>
+            <div class="process-item animate-fadeInUp">
+                <div class="process-icon">
+                    <i class="fas fa-pencil-ruler"></i>
+                </div>
+                <h3>方案设计</h3>
+                <p>资深设计师为您定制个性化设计方案</p>
+            </div>
+            <div class="process-item animate-fadeInUp">
+                <div class="process-icon">
+                    <i class="fas fa-hammer"></i>
+                </div>
+                <h3>工艺制作</h3>
+                <p>采用传统工艺精心打造每一道工序</p>
+            </div>
+            <div class="process-item animate-fadeInUp">
+                <div class="process-icon">
+                    <i class="fas fa-truck"></i>
+                </div>
+                <h3>配送安装</h3>
+                <p>专业团队上门安装并提供售后保障</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 新闻中心 -->
+    <section id="news" class="news-section">
+        <div class="section-title">
+            <h2>新闻中心</h2>
+            <p>了解最新产品资讯与行业动态</p>
+        </div>
+        <div class="news-grid">
+            <div class="news-card animate-fadeInUp">
+                <div class="news-image">
+                    <img src="images/news1.jpg" alt="新品发布" loading="lazy" width="400" height="250">
+                </div>
+                <div class="news-content">
+                    <span class="news-date">2024-03-20</span>
+                    <h3>新品发布：现代轻奢系列铜门</h3>
+                    <p>融合现代美学与传统工艺，打造轻奢品质生活...</p>
+                    <a href="#" class="read-more">查看详情</a>
+                </div>
+            </div>
+            <div class="news-card animate-fadeInUp">
+                <div class="news-image">
+                    <img src="images/news2.jpg" alt="工艺展示" loading="lazy" width="400" height="250">
+                </div>
+                <div class="news-content">
+                    <span class="news-date">2024-03-15</span>
+                    <h3>匠心工艺：传统铜门制作技艺</h3>
+                    <p>探索千年铜艺传承，领略非遗文化魅力...</p>
+                    <a href="#" class="read-more">查看详情</a>
+                </div>
+            </div>
+            <div class="news-card animate-fadeInUp">
+                <div class="news-image">
+                    <img src="images/news3.jpg" alt="设计趋势" loading="lazy" width="400" height="250">
+                </div>
+                <div class="news-content">
+                    <span class="news-date">2024-03-10</span>
+                    <h3>2024铜门设计流行趋势解析</h3>
+                    <p>把握最新家居设计趋势，引领时尚品味...</p>
+                    <a href="#" class="read-more">查看详情</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 搜索功能 -->
+    <div class="search-container">
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="搜索产品或案例...">
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>关于铜艺门匠</h3>
+                    <p>我们是专注于高端铜门定制的领先企业，拥有20年行业经验，为全国各地的高端客户提供专业服务。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>联系方式</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 地址：江苏省镇江市扬中市扬中大道268号</p>
+                    <p><i class="fas fa-phone"></i> 电话：138-5295-5775</p>
+                    <p><i class="fas fa-envelope"></i> 邮箱：56834120@qq.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>关注我们</h3>
+                    <div class="social-icons">
+                        <a href="#" id="wechatIcon" aria-label="微信"><i class="fab fa-weixin"></i></a>
+                        <a href="https://weibo.com" target="_blank" aria-label="微博"><i class="fab fa-weibo"></i></a>
+                        <a href="https://qq.com" target="_blank" aria-label="QQ"><i class="fab fa-qq"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 铜艺门匠. 保留所有权利。</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 浮动咨询按钮 -->
+    <div class="floating-contact">
+        <button class="floating-btn pulse-animation" id="floatingContactBtn">
+            <i class="fas fa-headset"></i>
+            <span>在线咨询</span>
+        </button>
+        <div class="floating-options">
+            <a href="tel:13852955775" class="floating-option">
+                <i class="fas fa-phone-alt"></i>
+                <span>电话咨询</span>
+            </a>
+            <a href="#contact" class="floating-option js-scroll">
+                <i class="fas fa-envelope"></i>
+                <span>在线预约</span>
+            </a>
+            <a href="https://wpa.qq.com/msgrd?v=3&uin=56834120&site=qq&menu=yes" target="_blank" class="floating-option">
+                <i class="fab fa-qq"></i>
+                <span>QQ咨询</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- 快速需求选择弹窗 -->
+    <div id="needsModal" class="modal">
+        <div class="modal-content">
+            <h2>您需要什么类型的产品？</h2>
+            <div class="needs-grid">
+                <div class="need-item" data-filter="copper">
+                    <i class="fas fa-door-closed"></i>
+                    <h3>纯铜门</h3>
+                    <p>尊贵气派，品质之选</p>
+                </div>
+                <div class="need-item" data-filter="aluminum">
+                    <i class="fas fa-door-open"></i>
+                    <h3>铸铝门</h3>
+                    <p>轻盈耐用，性价比高</p>
+                </div>
+                <div class="need-item" data-filter="railing">
+                    <i class="fas fa-grip-lines-vertical"></i>
+                    <h3>铝艺护栏</h3>
+                    <p>美观安全，装饰首选</p>
+                </div>
+            </div>
+            <button class="close-modal">稍后选择</button>
+        </div>
+    </div>
+
+    <script src="scripts.js" defer></script>
+    <script src="form-handler.js" defer></script>
+</body>
+</html> 
